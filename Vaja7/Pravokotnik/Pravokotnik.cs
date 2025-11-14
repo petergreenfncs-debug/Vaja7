@@ -27,5 +27,16 @@ namespace Vaja7.Pravokotnik
             this.a = a;
             this.b = b;
         }
+
+        public int Obseg()
+        {
+            return 2 * (a + b);
+        }
+
+        public int Ploscina()
+        {
+            return a * b;
+        }
+
     }
 }

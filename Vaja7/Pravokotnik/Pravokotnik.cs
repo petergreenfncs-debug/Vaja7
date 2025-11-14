@@ -8,5 +8,7 @@ namespace Vaja7.Pravokotnik
 {
     internal class Pravokotnik
     {
+        private int a;
+        private int b;
     }
 }

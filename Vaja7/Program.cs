@@ -10,9 +10,9 @@ namespace Vaja7
     {
         static void Main(string[] args)
         {
+            Pit_Trikotnik Trikotnik1 = new Pit_Trikotnik(6, 8);
 
-
-
+            Console.WriteLine(Trikotnik1.Ploscina());
         }
     }
 }

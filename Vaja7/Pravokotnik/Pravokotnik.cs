@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Vaja7.Pravokotnik
 {
-    internal class Pravokotnik
+    public class Pravokotnik
     {
         private int a;
         private int b;
@@ -16,7 +16,13 @@ namespace Vaja7.Pravokotnik
             b = 1;
         }
 
-        public Pravokotnik(double a, double b)
+        public Pravokotnik(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+
+        public void Nastavi(int a, int b)
         {
             this.a = a;
             this.b = b;

@@ -10,5 +10,16 @@ namespace Vaja7.Pravokotnik
     {
         private int a;
         private int b;
+        public Pravokotnik()
+        {
+            a = 1;
+            b = 1;
+        }
+
+        public Pravokotnik(double a, double b)
+        {
+            this.a = a;
+            this.b = b;
+        }
     }
 }
